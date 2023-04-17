@@ -17,5 +17,10 @@ namespace Editor {
         public static void Docu() {
             Application.OpenURL("");
         }
+
+        [MenuItem("RTS Entities/Review", false, 54)]
+        public static void Review() {
+            Application.OpenURL("https://assetstore.unity.com/");
+        }
     }
 }
